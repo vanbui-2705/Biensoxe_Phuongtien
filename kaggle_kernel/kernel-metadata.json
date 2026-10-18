@@ -1,0 +1,18 @@
+{
+  "id": "vnbivn/vn-parking-yolo-train",
+  "title": "VN Parking YOLO Train",
+  "code_file": "train_yolo_parking_kaggle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "vnbivn/vietnam-license-plate-yolo",
+    "dataclusterlabs/bicycle-image-dataset-vehicle-dataset"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

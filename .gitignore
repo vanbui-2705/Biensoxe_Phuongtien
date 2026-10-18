@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+
+# Dataset images and labels
+/Vietnam License plate.v1i.yolo26/train/images/
+/Vietnam License plate.v1i.yolo26/train/labels/
+/Vietnam License plate.v1i.yolo26/valid/images/
+/Vietnam License plate.v1i.yolo26/valid/labels/
+/Vietnam License plate.v1i.yolo26/test/images/
+/Vietnam License plate.v1i.yolo26/test/labels/
+/parking_yolo26_artifacts/dataset/train/images/
+/parking_yolo26_artifacts/dataset/train/labels/
+/parking_yolo26_artifacts/dataset/valid/images/
+/parking_yolo26_artifacts/dataset/valid/labels/
+/parking_yolo26_artifacts/dataset/test/images/
+/parking_yolo26_artifacts/dataset/test/labels/
+
+# Model weights and exported models
+*.pt
+*.onnx
+*.torchscript
+*.engine
+
+# Training and inference outputs
+/runs/
+/outputs/
+/current_kaggle_pull/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

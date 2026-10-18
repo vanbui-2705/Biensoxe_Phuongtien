@@ -1,0 +1,8 @@
+path: E:\AI\Yolo_Parking\parking_yolo26_artifacts\dataset
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: car
+  1: motorcycle
+  2: plate

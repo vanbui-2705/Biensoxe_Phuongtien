@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['car', 'motorcycle', 'plate']
+
+roboflow:
+  workspace: vaan-bui
+  project: vietnam-license-plate-w6gdc-epsow
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vaan-bui/vietnam-license-plate-w6gdc-epsow/dataset/1
